@@ -1,1 +1,17 @@
-/*# sourceMappingURL=style.css.map */
+.nav-links-container li:first-child a {
+  padding-left: 60px !important;
+}
+.nav-links-container a {
+  padding: 0px 20px !important;
+  font-weight: 300;
+}
+
+.nav-btn {
+  height: 50px;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+.nav-btn button {
+  width: 150px;
+  padding: 0px !important;
+}/*# sourceMappingURL=style.css.map */
