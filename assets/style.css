@@ -60,9 +60,8 @@
 .section-graph .minus {
   color: red;
 }
-.section-graph .bitcoin-logo:before {
-  content: url("./images/graph/btc.svg");
-  width: 1rem;
-  height: 1rem;
-  display: block;
+.section-graph .logo {
+  padding: 0;
+  width: 25px;
+  height: 25px;
 }/*# sourceMappingURL=style.css.map */
