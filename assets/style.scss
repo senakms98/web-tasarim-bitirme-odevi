@@ -68,3 +68,19 @@
     line-height: 82px;
   }
 }
+
+.section-graph {
+  .plus {
+    color: green;
+  }
+  .minus {
+    color: red;
+  }
+
+  .bitcoin-logo:before {
+    content: url("./images/graph/btc.svg");
+    width: 1rem;
+    height: 1rem;
+    display: block;
+  }
+}
