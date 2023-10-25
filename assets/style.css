@@ -64,4 +64,10 @@
   padding: 0;
   width: 25px;
   height: 25px;
+}
+
+.arrow {
+  position: absolute;
+  top: 40%;
+  right: -20%;
 }/*# sourceMappingURL=style.css.map */
