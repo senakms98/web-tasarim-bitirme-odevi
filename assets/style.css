@@ -72,20 +72,27 @@
   right: -20%;
 }
 
-.accordion {
+.section-faq .accordion {
+  background-color: white;
   cursor: pointer;
-  padding: 18px;
+  padding: 20px 0px;
   width: 100%;
   border: none;
   text-align: left;
   outline: none;
-  font-size: 15px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
   transition: 0.4s;
 }
-
-.panel {
-  padding: 0 18px;
+.section-faq .accordion:hover {
+  background-color: white;
+}
+.section-faq .panel {
+  padding: 0 0px;
+  background-color: white;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
+  border-bottom: 1px solid #cccccc;
 }/*# sourceMappingURL=style.css.map */
