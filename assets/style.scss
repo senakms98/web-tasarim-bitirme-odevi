@@ -118,3 +118,25 @@
     border-bottom: 1px solid #cccccc;
   }
 }
+
+.back-top-btn {
+  a {
+    text-decoration: none;
+    button {
+      color: #666;
+      font-size: 16px;
+      font-weight: 400;
+      display: flex;
+      width: 180px;
+      height: 60px;
+      padding: 10px;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      flex-shrink: 0;
+      border-radius: 12px;
+      border: 1px solid #ddd;
+      background: #fafafa;
+    }
+  }
+}
