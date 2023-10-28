@@ -70,6 +70,32 @@
 }
 
 .section-graph {
+  .graph-emoji {
+    color: #000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  a {
+    color: var(--BLUE, #2f7cf0);
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+  }
+  .graph-head {
+    color: var(--FONT-SECONDARY, #666);
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.15px;
+  }
   .plus {
     color: green;
   }
@@ -85,6 +111,7 @@
 
   .row-border {
     border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
     padding: 4px;
   }
 }
