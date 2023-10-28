@@ -104,8 +104,9 @@
   border-right: 1px solid #ddd;
   padding: 4px;
 }
-.section-graph .row-all {
-  border-right: 1px solid #ddd;
+.section-graph .row-left {
+  border-bottom: 1px solid #ddd;
+  padding: 4px;
 }
 
 .arrow {
