@@ -171,6 +171,25 @@
     -webkit-text-fill-color: transparent;
   }
 
+  .get {
+    border-right: 1px solid #468ef9;
+    margin: 20px;
+    padding: 0 26px;
+    display: flex;
+    align-items: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background: var(
+      --GRA-Blue,
+      linear-gradient(137deg, #468ef9 -12.5%, #0c66ee 107.5%)
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
   .input {
     height: 100%;
     width: 90%;
