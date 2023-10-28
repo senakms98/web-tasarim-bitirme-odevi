@@ -29,7 +29,7 @@
 
 .section-start {
   width: 100%;
-  min-height: 900px;
+  min-height: 720px;
   background: linear-gradient(
     158deg,
     rgba(255, 255, 255, 1) 0%,
@@ -81,7 +81,7 @@
   .graph-emoji {
     color: #000;
     font-family: Poppins;
-    font-size: 20px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -119,8 +119,12 @@
 
   .row-border {
     border-bottom: 1px solid #ddd;
-    border-right: 1px solid #ddd;
+
     padding: 4px;
+  }
+
+  .row-all {
+    border-right: 1px solid #ddd;
   }
 }
 
