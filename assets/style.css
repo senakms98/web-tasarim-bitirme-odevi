@@ -118,20 +118,29 @@
   line-height: 52px;
 }
 .section-buy .wrapper {
-  border: 1px solid blue;
+  border: 1px solid #468ef9;
   border-radius: 22px;
   display: flex;
   justify-content: space-between;
-  width: 336px;
+  width: 328px;
   height: 80px;
   margin-bottom: 10px;
 }
 .section-buy .amount {
-  border-right: 1px solid blue;
+  border-right: 1px solid #468ef9;
   margin: 20px;
   padding: 0 10px;
   display: flex;
   align-items: center;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  background: var(--GRA-Blue, linear-gradient(137deg, #468ef9 -12.5%, #0c66ee 107.5%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .section-buy .input {
   height: 100%;
@@ -142,6 +151,19 @@
 .section-buy input {
   border: 0px;
   text-align: right;
+}
+.section-buy .select-group {
+  border: 1px solid #468ef9;
+  border-radius: 22px;
+  display: flex;
+  justify-content: center;
+  width: 150px;
+  height: 80px;
+  margin-bottom: 10px;
+}
+.section-buy select {
+  border: 0px;
+  font-size: 18px;
 }
 .section-buy .btn-buy {
   width: 100%;
