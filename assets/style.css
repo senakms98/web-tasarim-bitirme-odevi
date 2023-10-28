@@ -109,7 +109,7 @@
   padding: 4px;
 }
 
-.section-buy h2 {
+.section-buy .head-h2 {
   color: var(--FONT-BLACK, #222);
   font-family: Poppins;
   font-size: 36px;
@@ -191,6 +191,18 @@
   position: absolute;
   top: 40%;
   right: -20%;
+}
+
+.section-credit-card .nefa {
+  background: var(--GRA-Blue2, linear-gradient(169deg, #3984f4 -6.01%, #0cd3ff 36.87%, #2f7cf0 78.04%, #0e65e8 103.77%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 52px;
 }
 
 .section-faq .accordion {
