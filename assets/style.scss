@@ -78,6 +78,7 @@
 }
 
 .section-graph {
+  margin-top: -40px;
   .graph-emoji {
     color: #000;
     font-family: Poppins;
@@ -119,7 +120,7 @@
 
   .row-border {
     border-bottom: 1px solid #ddd;
-
+    border-right: 1px solid #ddd;
     padding: 4px;
   }
 

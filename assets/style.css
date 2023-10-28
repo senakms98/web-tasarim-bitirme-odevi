@@ -59,6 +59,9 @@
   line-height: 82px;
 }
 
+.section-graph {
+  margin-top: -40px;
+}
 .section-graph .graph-emoji {
   color: #000;
   font-family: Poppins;
@@ -98,6 +101,7 @@
 }
 .section-graph .row-border {
   border-bottom: 1px solid #ddd;
+  border-right: 1px solid #ddd;
   padding: 4px;
 }
 .section-graph .row-all {
