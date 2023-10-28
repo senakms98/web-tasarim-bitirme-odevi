@@ -140,6 +140,36 @@
     font-weight: 600;
     line-height: 52px;
   }
+
+  .wrapper {
+    border: 1px solid blue;
+    border-radius: 22px;
+    display: flex;
+    justify-content: space-between;
+    width: 336px;
+    height: 80px;
+    margin-bottom: 10px;
+  }
+
+  .amount {
+    border-right: 1px solid blue;
+    margin: 20px;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+  }
+
+  .input {
+    height: 100%;
+    width: 90%;
+    align-items: center;
+    display: flex;
+  }
+
+  input {
+    border: 0px;
+    text-align: right;
+  }
   .btn-buy {
     width: 100%;
     text-align: center;
