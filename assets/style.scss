@@ -131,6 +131,21 @@
   }
 }
 
+.section-buy {
+  h2 {
+    color: var(--FONT-BLACK, #222);
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 52px;
+  }
+  .btn-buy {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+  }
+}
 .arrow {
   position: absolute;
   top: 40%;
