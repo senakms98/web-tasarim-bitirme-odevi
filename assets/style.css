@@ -24,6 +24,11 @@
   line-height: normal;
 }
 
+.section-start {
+  width: 100%;
+  min-height: 900px;
+  background: linear-gradient(158deg, rgb(255, 255, 255) 0%, rgb(221, 234, 253) 90%);
+}
 .section-start .star {
   position: absolute;
   top: 7%;
