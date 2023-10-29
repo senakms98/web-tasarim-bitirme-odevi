@@ -404,3 +404,9 @@ footer {
     line-height: normal;
   }
 }
+
+.long-button {
+  @media (max-width: 536px) {
+    width: 100%;
+  }
+}
