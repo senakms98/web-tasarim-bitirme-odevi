@@ -340,16 +340,20 @@ footer {
   .container {
     border-top: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
+    .col-lg-2 {
+      border-right: 1px solid #ddd;
+      @media (max-width: 991px) {
+        border-right: none;
+        border-bottom: 1px solid #ddd;
+        margin-top: 10px;
+      }
+    }
   }
-
   li {
     list-style-type: none;
     padding: 8px;
   }
 
-  ul {
-    border-right: 1px solid #ddd;
-  }
   a {
     color: var(--FONT-SECONDARY, #666);
     font-family: Poppins;
