@@ -347,5 +347,8 @@ footer input {
 @media (max-width: 536px) {
   .long-button {
     width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
   }
 }/*# sourceMappingURL=style.css.map */
