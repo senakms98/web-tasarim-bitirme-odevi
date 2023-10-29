@@ -28,8 +28,16 @@
 }
 
 .section-start {
+  .header-buttons {
+    .header-button {
+      @media (max-width: 536px) {
+        width: 100%;
+        margin-top: 15px;
+      }
+    }
+  }
   width: 100%;
-  min-height: 720px;
+  min-height: 800px;
   background: linear-gradient(
     158deg,
     rgba(255, 255, 255, 1) 0%,
@@ -44,7 +52,7 @@
 
   .circle {
     position: absolute;
-    bottom: -12%;
+    bottom: -3%;
     left: -9%;
   }
 
@@ -78,7 +86,7 @@
 }
 
 .section-graph {
-  margin-top: -40px;
+  margin-top: -35px;
   .graph-emoji {
     color: #000;
     font-family: Poppins;
