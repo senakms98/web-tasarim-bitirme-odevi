@@ -275,6 +275,7 @@
   border: 1px solid #ddd;
   background: #fafafa;
   margin-top: 50px;
+  margin-bottom: 35px;
 }
 
 footer .container {
@@ -322,4 +323,17 @@ footer input {
   flex-shrink: 0;
   border-radius: 10px;
   border: 1px solid #aaa;
+}
+
+.section-copyright {
+  margin: 15px;
+}
+.section-copyright .copyright-text {
+  color: var(--FONT-SECONDARY, #666);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }/*# sourceMappingURL=style.css.map */
